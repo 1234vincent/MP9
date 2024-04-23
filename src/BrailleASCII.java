@@ -11,7 +11,6 @@ public class BrailleASCII {
         }
         return result.toString();
     }
-
     private static String toASCII(String message) {
         StringBuilder result = new StringBuilder();
         for (int i = 0; i < message.length(); i += 6) {
